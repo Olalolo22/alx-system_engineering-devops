@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=':' read -ra dirs <<< "$PATH" count=${#dirs[@]} echo "There are $count directories in the PATH"
+echo "There are $(IFS=':'read -ra dirs <<< "$PATH"; echo "${#dirs[@]}") directories in the PATH
