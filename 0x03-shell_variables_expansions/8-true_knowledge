@@ -1,0 +1,2 @@
+#!/bin/bash
+value=$TRUEKNOWLEDGE | result=$(expr $value + 128) | 
