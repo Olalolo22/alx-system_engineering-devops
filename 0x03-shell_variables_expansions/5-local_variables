@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Local variables:" set|grep "^[[:alpha:]]" echo "Environmental variables:" printev| echo "Functions:" declare -F
+echo "Local variables:"|set grep "^[[:alpha:]]" | echo "environmental variables:" printev | echo "Functions:"| declare -F
